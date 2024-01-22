@@ -7,6 +7,132 @@
   font-family: 'Manrope', sans-serif;
 }
 
-h1 {
-  color: red;
+.program_container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.program_contain {
+  height: 90%;
+  width: 90%;
+}
+
+.program_titel {
+  height: auto;
+  width: 100%;
+}
+.program_titel h2 {
+  color: #131318;
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 800;
+}
+.program_titel p {
+  color: rgba(19, 19, 24, 0.60);
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 20px;
+  padding: 20px 200px;
+}
+
+.program_iner_contain_one {
+  height: 60%;
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.pico_left {
+  height: 100%;
+  width: 50%;
+  border-radius: 8px;
+  background-image: url("Images/2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.pico_right {
+  height: 100%;
+  width: 50%;
+  border-radius: 8px;
+  background-image: url("Images/3.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.program_iner_contain_two {
+  height: 70%;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.pict_center {
+  height: 100%;
+  width: 100%;
+  background-image: url("Images/4.png");
+  border-radius: 8px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.primary_bg {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.50);
+}
+
+.iner_titer h3{
+  color: #FFF;
+  font-size: 1.8rem;
+  font-weight: 800;
+  padding-left: 20px;
+}
+.iner_titer p{
+  color: #FFF;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 25px;
+  padding: 20px 20px;
+}
+.iner_titer button{
+  color: #FFF;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 700;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  margin-left: 20px;
+  background-color: #FF4240;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600) {
+  
 }
