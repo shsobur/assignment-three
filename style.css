@@ -38,7 +38,7 @@
   font-size: 1rem;
   font-weight: 500;
   line-height: 20px;
-  padding: 20px 200px;
+  padding: 20px 300px;
 }
 
 .program_iner_contain_one {
@@ -231,7 +231,7 @@
   height: 70vh;
   width: 100%;
   color: white;
-  margin-top: 30%;
+  margin-top: 100px;
   display: flex;
   background-color: black;
   justify-content: space-between;
@@ -355,7 +355,7 @@
   /* Responsive patr of [ Program Section ] ST */
 
   .program_titel p {
-    padding: 20px 10px;
+    padding: 10px 20px;
   }
 
   .program_iner_contain_one {
@@ -388,11 +388,57 @@
   /* Responsive patr of [ Program SEction ] END */
 
 
+  /* Responsive part for [ Our New Products ] ST */
+
+  .onp_titel {
+    margin-top: 650px;
+  }
+
+  .onp_titel h2 {
+    font-size: 1.8rem;
+  }
+  .onp_titel p {
+    padding: 20px 20px;
+  }
+
+  .cards_contain {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .card {
+    height: 500px;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .card_image {
+    height: 60%;
+    width: 100%;
+  }
+  .card_image img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .card_details  {
+    height:50%;
+    width: 100%;
+  }
+  
+  .card_details li i {
+    padding-top: 10px;
+  }
+  .card_details p  {
+    padding: 10px 20px;
+  }
+
+  /* Responsive part for [ Our New Products ] ST */
+
   /* Responsive part of [ Footer ] ST */
 
   .footer_container_main  {
     height: 100%;
-    margin-top: 650px;
+    margin-top: 100px;
     flex-direction: column;
   }
 
@@ -430,6 +476,6 @@
     text-align: center;
   }
 
-  /* Responsive part of [ Footer ] END */
+/* Responsive part of [ Footer ] END */
 
 }
