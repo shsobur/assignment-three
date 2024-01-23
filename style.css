@@ -18,7 +18,7 @@
 }
 
 .program_contain {
-  height: 90%;
+  height: 100%;
   width: 90%;
 }
 
@@ -119,13 +119,133 @@
   background-color: #FF4240;
 }
 
+.iner_titer button:hover {
+  background-color: #e63d3a;
+}
+.iner_titer button:active {
+  background-color: #cc3634;
+}
+
 /* Program_Section Styleing END */
 
 
+/* ------> NEW SECTION <------ */
 
 
+/* Footer_Section Styleing ST*/
+
+.footer_container_main {
+  height: 70vh;
+  width: 100%;
+  background-color: black;
+  color: white;
+  margin-top: 30%;
+  display: flex;
+  justify-content: space-between  ;
+}
 
 
+.footer_container_one {
+  height: 100%;
+  width: 35%;
+  display: flex;
+  align-items: center;
+}
+
+
+.get_in_touch {
+  height: 60%;
+  padding-left: 50px;
+}
+.get_in_touch h3 {
+  color: #FFF;
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+.get_in_touch p {
+  color: #ffffff99;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 26px;
+  padding: 20px 0;
+}
+.get_in_touch li {
+  list-style: none;
+  padding: 10px 0;
+}
+.get_in_touch li i {
+  padding-right: 10px;
+}
+
+
+.footer_container_two {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+
+
+.fct_left {
+  height: 60%;
+  width: 50%;
+  padding-left: 50px;
+}
+.fct_left h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.fct_left li {
+  list-style: none;
+  color: #ffffff99;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+
+.fct_right {
+  height: 60%;
+  width: 50%;
+  padding-left: 50px;
+}
+.fct_right h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.fct_right li {
+  list-style: none;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+
+.footer_container_three {
+  height: 100%;
+  width: 25%;
+  display: flex;
+  align-items: center;
+}
+
+
+.services {
+  height: 60%;
+  padding-left: 50px;
+}
+.services h3 { 
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.services li {
+  list-style: none;
+  color: #ffffff99;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+/* Footer_Section Styleing END*/
 
 
 
