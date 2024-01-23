@@ -137,11 +137,11 @@
 .footer_container_main {
   height: 70vh;
   width: 100%;
-  background-color: black;
   color: white;
   margin-top: 30%;
   display: flex;
-  justify-content: space-between  ;
+  background-color: black;
+  justify-content: space-between;
 }
 
 
@@ -215,9 +215,10 @@
 }
 .fct_right li {
   list-style: none;
+  color: #ffffff99;
   font-size: 1rem;
   font-weight: 500;
-  line-height: 40px;
+  line-height: 50px;
 }
 
 
@@ -292,5 +293,50 @@
   }
 
   /* Responsive patr of [ Program SEction ] END */
+
+
+  /* Responsive part of [ Footer ] ST */
+
+  .footer_container_main  {
+    height: 100%;
+    margin-top: 650px;
+    flex-direction: column;
+  }
+
+  .footer_container_one {
+    text-align: center;
+    width: 100%;
+  }
+
+  .get_in_touch {
+    padding: 30px 20px;
+  }
+
+  .footer_container_two {
+    width: 100%;
+    text-align: center;
+  }
+
+  .fct_left {
+    height: 80%;
+    padding: 20px;
+  }
+
+  .fct_right {
+    height: 100%;
+    padding: 20px;
+  }
+
+  .footer_container_three {
+    width: 100%;
+  }
+
+  .services {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  /* Responsive part of [ Footer ] END */
 
 }
