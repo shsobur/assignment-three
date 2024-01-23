@@ -132,6 +132,99 @@
 /* ------> NEW SECTION <------ */
 
 
+/* Our New Products_Section Styleing ST */
+
+.onp_titel {
+  height: auto;
+  width: 100%;
+  margin-top: 400px;
+  text-align: center;
+}
+.onp_titel h2 {
+  color: #131318;
+  font-size: 2.2rem;
+  font-weight: 800;
+}
+.onp_titel p {
+  color: #13131899;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 26px;
+  padding: 20px 250px;
+}
+
+.cards_container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.cards_contain {
+  height: 100%;
+  width: 90%;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  row-gap: 30px;
+}
+
+.card {
+  height: 210px;
+  width: 550px;
+  display: flex;
+  padding: 10px;
+  border-radius: 8px;
+  border: 2px solid rgba(19, 19, 24, 0.10);
+}
+
+.card_image {
+  height: 100%;
+  width: 35%;
+}
+.card_image img {
+  height: 100%;
+  width: 100%;
+}
+
+
+.card_details {
+  height: 100%;
+  width: 65%;
+}
+
+.card_details li {
+  display: inline;
+  color: #13131899;
+  padding-left: 20px;
+  font-size: 1rem;
+}
+.card_details li i {
+  padding-right: 10px;
+}
+.card_details h3{
+  color: #131318;
+  font-size: 1.3rem;
+  font-weight: 800;
+  padding-left: 20px;
+  padding-top: 15px;
+}
+.card_details p {
+  color: #13131899;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 26px;
+  padding: 15px 20px;
+}
+
+
+/* Our New Products_Section Styleing END */
+
+
+/* ------> NEW SECTION <------ */
+
+
 /* Footer_Section Styleing ST*/
 
 .footer_container_main {
