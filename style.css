@@ -7,6 +7,114 @@
   font-family: 'Manrope', sans-serif;
 }
 
+/* Hero_Section Styleing ST */
+
+nav {
+  height: 80px;
+  width: 100%;
+  padding: 0 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: darkseagreen;
+}
+
+
+.hero_titel {
+  display: flex;
+  align-items: center;
+}
+.hero_titel i {
+  display: none;
+  padding-right: 10px;
+  font-size: 1.4rem;
+}
+.hero_titel h2 {
+  color: #131318;
+  font-size: 2.2rem;
+  font-weight: 800;
+}
+.hero_titel span {
+  color: #FF4240;
+}
+
+nav ul {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+  color: #424247;
+  font-size: 1rem;
+  font-weight: 400;
+}
+nav ul a {
+  text-decoration: none;
+  color: #424247;
+}
+nav ul a:hover {
+  color: #FF4240;
+  transition: 0.2s;
+}
+
+.access i {
+  font-size: 1.3rem;
+  padding-right: 10px;
+}
+
+.access button {
+  padding: 10px 20px;
+  color: #FFF;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 700;
+  border: none;
+  background-color: #FF4240;
+  border-radius: 8px;
+}
+.access button:hover {
+  background-color: #e63d3a;
+}
+.access button:active {
+  background-color: #cc3634;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Hero_Section Styleing END */
+
+
+/* ------> NEW SECTION <------ */
+
+
 /* Program_Section Styleing ST */
 
 .program_container {
@@ -351,6 +459,32 @@
 
 
 @media screen and (max-width: 600px) {
+
+  /* Responsive part of [ Only Nave _Bar ] ST */
+
+  nav {
+    padding: 0 20px;
+  }
+  .hero_titel i {
+    display: block;
+    font-size: 1.2rem;
+  }
+  .hero_titel h2  {
+    font-size: 1.5rem;
+  }
+  nav ul {
+    display: none;
+  }
+  .access i {
+    display: none;
+  }
+  .access button {
+    padding: 6px 15px;
+    font-size: 1.1rem;
+  }
+
+  /* Responsive part of [ Only Nave _Bar ] END */
+  
 
   /* Responsive patr of [ Program Section ] ST */
 
