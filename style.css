@@ -13,12 +13,14 @@ nav {
   height: 80px;
   width: 100%;
   padding: 0 100px;
+  position: fixed;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: darkseagreen;
+  background-color: #ffffff;
+  border-bottom: 1px solid gray;
+  z-index: 2;
 }
-
 
 .hero_titel {
   display: flex;
@@ -81,33 +83,49 @@ nav ul a:hover {
 }
 
 
+.baner_container {
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 80px;
+}
 
+.baner_contant {
+  height: 90vh;
+  width: 90%;
+  margin-top: 20px;
+  border-radius: 16px;
+  background-image: url("Images/1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.all_hero {
+  height: 130px;
+  width: 500px;
+  padding: 20px;
+  border-radius: 16px;
+  background-color: black;
+  position: relative;
+  bottom: 180px;
+  left: 250px;
+}
+.all_hero h4 {
+  color: #FFF;
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+.all_hero p {
+  color: #ffffff99;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 26px;
+  padding: 10px 0;
+}
 
 /* Hero_Section Styleing END */
 
@@ -484,7 +502,27 @@ nav ul a:hover {
   }
 
   /* Responsive part of [ Only Nave _Bar ] END */
-  
+
+
+  /* Responsive part of [ Hero Baner ] ST */
+
+  .baner_contant {
+    height: 40vh;
+    margin-top: 20px;
+  }
+
+  .all_hero {
+    height: 50%;
+    width: 90%;
+    margin: 30px 0;
+    position: static;
+  }
+  .all_hero h4 {
+    font-size: 1.2rem;
+  } 
+
+  /* Responsive part of [ Hero Baner ] END */
+
 
   /* Responsive patr of [ Program Section ] ST */
 
